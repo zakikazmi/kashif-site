@@ -1,0 +1,361 @@
+[2025-05-07 19:29:52] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-05-07 19:29:52] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2025-05-07 19:29:52] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-05-07 19:29:52] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-05-07 19:29:52] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-05-07 19:29:52] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-05-07 19:29:52] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192\
+[2025-05-07 19:29:52] [class-ss-setup-task.php:72] Adding origin URL to queue: http://kashif-site.local/
+[2025-05-07 19:29:52] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-05-07 19:29:52] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-05-07 19:29:52] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-05-07 19:29:52] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-05-07 19:29:52] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/
+[2025-05-07 19:29:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-05-07 19:29:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b04cc53-Lq2HQi.tmp
+[2025-05-07 19:29:52] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/?simply_static_page=79
+[2025-05-07 19:29:52] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/?simply_static_page=79
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 42345 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b04cc53-Lq2HQi.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/index.html
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 25 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:af6612285cfb19555a356698c65cb1df53e298c4===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-05-07 19:29:57] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-05-07 19:29:57] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-05-07 19:29:57] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:69] Total pages: 26; Pages remaining: 25
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5728e4-yn2chP.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9.png?simply_static_page=80
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9.png?simply_static_page=80
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 264755 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif_1-9.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5728e4-yn2chP.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif_1-9.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:1816ecb0665b651dd09912817913d046077a66c6===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9-300x157.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5798d1-JVjEV4.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9-300x157.png?simply_static_page=81
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9-300x157.png?simply_static_page=81
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 26106 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif_1-9-300x157.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5798d1-JVjEV4.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif_1-9-300x157.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:ec350d4e3fb41e13559601e224f43bcdd4c6b841===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9-768x402.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5803c3-MkiwpY.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9-768x402.png?simply_static_page=82
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif_1-9-768x402.png?simply_static_page=82
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 133260 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif_1-9-768x402.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5803c3-MkiwpY.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif_1-9-768x402.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:005b61a176d2bbb309e02cd152c44e311ea4527f===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif-3.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b587b2a-HjIrV9.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif-3.png?simply_static_page=83
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif-3.png?simply_static_page=83
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 416777 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif-3.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b587b2a-HjIrV9.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif-3.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:81ffccfd86669c8423adacb7aaa3b9a40f44e459===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif-3-300x144.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b593fe7-PSCzfh.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif-3-300x144.png?simply_static_page=84
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif-3-300x144.png?simply_static_page=84
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 69723 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif-3-300x144.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b593fe7-PSCzfh.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif-3-300x144.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:110fa1d09fcc13b6e7bd9e90afedf563ffae77e8===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif2.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b59f1f6-sibrQv.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif2.png?simply_static_page=85
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif2.png?simply_static_page=85
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 275995 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif2.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b59f1f6-sibrQv.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif2.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:38012a99c23fc10047bffedfc160a0a537819f50===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif2-300x165.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5abaca-4ZWMTO.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif2-300x165.png?simply_static_page=86
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif2-300x165.png?simply_static_page=86
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 21795 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif2-300x165.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5abaca-4ZWMTO.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif2-300x165.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:f200f9f5f29965602147a0a787ae7ee7e7a7b412===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif2-768x422.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5b44f8-izZsro.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif2-768x422.png?simply_static_page=87
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif2-768x422.png?simply_static_page=87
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 109163 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif2-768x422.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5b44f8-izZsro.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif2-768x422.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:04e3b901bc7bafe798be237550239801205943b7===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif4.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5bd6dc-uqH4iL.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif4.png?simply_static_page=88
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif4.png?simply_static_page=88
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 152063 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif4.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5bd6dc-uqH4iL.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif4.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:7854806c58ec690bd97a381d7ebe682333a0453e===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif4-300x200.png
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5c6788-bZHhL5.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/uploads/2025/05/kashif4-300x200.png?simply_static_page=89
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/uploads/2025/05/kashif4-300x200.png?simply_static_page=89
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 29207 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/kashif4-300x200.png
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5c6788-bZHhL5.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/uploads/2025/05/kashif4-300x200.png
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:2720113ebd51d18cbfbca8176404623ba2d38b25===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/feed/
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://kashif-site.local/feed/
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/comments/feed/
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://kashif-site.local/comments/feed/
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-json/
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://kashif-site.local/wp-json/
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/xmlrpc.php
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://kashif-site.local/xmlrpc.php
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5d9646-weRPUw.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2?simply_static_page=94
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2?simply_static_page=94
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 29272 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5d9646-weRPUw.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:ccb66559d2695374a2e5e238270f0ec8b992cdd5===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5e3c26-goKim3.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2?simply_static_page=95
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2?simply_static_page=95
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 32492 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5e3c26-goKim3.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:57] [class-ss-page.php:119] Checking Content Identical:30418bf54e1d00fea0634057bd33274365a59129===. Value: FALSE
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2
+[2025-05-07 19:29:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 26
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b5ee17f-UsJBGe.tmp
+[2025-05-07 19:29:57] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2?simply_static_page=96
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2?simply_static_page=96
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:103] Filesize: 29272 bytes
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2
+[2025-05-07 19:29:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b5ee17f-UsJBGe.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2
+[2025-05-07 19:29:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:f36331334a63f2b1e13e8417da8fe823ffcbecf7===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2
+[2025-05-07 19:29:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 26
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b6047af-crwEv7.tmp
+[2025-05-07 19:29:58] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2?simply_static_page=97
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2?simply_static_page=97
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:103] Filesize: 32784 bytes
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b6047af-crwEv7.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:f4f491d55e8e0871e3dcf60107b200913a2046b8===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2
+[2025-05-07 19:29:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 26
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b60f099-y0tL6s.tmp
+[2025-05-07 19:29:58] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2?simply_static_page=98
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2?simply_static_page=98
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:103] Filesize: 34700 bytes
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b60f099-y0tL6s.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:73a19cd8e5c5cc7aadb97299033779d2e87b4128===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2
+[2025-05-07 19:29:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 26
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b61a6e7-mmon5C.tmp
+[2025-05-07 19:29:58] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2?simply_static_page=99
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2?simply_static_page=99
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:103] Filesize: 34480 bytes
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b61a6e7-mmon5C.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:d2db0a75a5ec3b991e07def36d610d8a59c231cf===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2
+[2025-05-07 19:29:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 26
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b624801-XuSavh.tmp
+[2025-05-07 19:29:58] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2?simply_static_page=100
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2?simply_static_page=100
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:103] Filesize: 38924 bytes
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b624801-XuSavh.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:5d8d669a27b7b1ffc28ddcbf40746871e7755fb1===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2
+[2025-05-07 19:29:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 26
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b62dd53-vSUO4G.tmp
+[2025-05-07 19:29:58] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2?simply_static_page=101
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2?simply_static_page=101
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:103] Filesize: 35652 bytes
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b62dd53-vSUO4G.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:fb3e74748b42eaedbe9f4cd2bec9b0410361f583===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf
+[2025-05-07 19:29:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 26
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b6373d8-n55eNW.tmp
+[2025-05-07 19:29:58] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf?simply_static_page=102
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf?simply_static_page=102
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:103] Filesize: 803384 bytes
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b6373d8-n55eNW.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:44b415f3b0ac1da7f3044ba6bcc542a649d4a447===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2025-05-07 19:29:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 26
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b641aa6-bQ4HCb.tmp
+[2025-05-07 19:29:58] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2?simply_static_page=103
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2?simply_static_page=103
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:103] Filesize: 428448 bytes
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b641aa6-bQ4HCb.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:b622e44324ea8789789e812cae242e1f483e9811===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:73] URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2025-05-07 19:29:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 26
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/681bb4b64beab-2LmWae.tmp
+[2025-05-07 19:29:58] [class-ss-page-handler.php:38] URL Prepared:http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2?simply_static_page=104
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:251] Fetching URL: http://kashif-site.local/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2?simply_static_page=104
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:103] Filesize: 346840 bytes
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2025-05-07 19:29:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/681bb4b64beab-2LmWae.tmp to C:\Users\kazmi\Local Sites\kashif-site\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1746646192/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-07 19:29:58] [class-ss-page.php:119] Checking Content Identical:95c3d13946b16dfb07cfa14629a8ae04cc83323d===. Value: FALSE
+[2025-05-07 19:29:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 26 pages/files
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-05-07 19:29:58] [class-ss-fetch-urls-task.php:69] Total pages: 26; Pages remaining: 0
+[2025-05-07 19:29:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 26 of 26 pages/files
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:233] We've found our next task: create_zip_archive
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:194] Current task: create_zip_archive
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:208] Performing task: create_zip_archive
+[2025-05-07 19:29:58] [class-ss-create-zip-archive.php:85] Fetching list of files to include in zip
+[2025-05-07 19:29:58] [class-ss-create-zip-archive.php:94] Creating zip archive
+[2025-05-07 19:29:58] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a download href="http://kashif-site.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1746646192.zip">Click here to download</a>
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-05-07 19:29:58] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-05-07 19:29:58] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-05-07 19:29:58] [class-ss-archive-creation-job.php:414] Status message: [done] Done! Finished in 00:00:06
